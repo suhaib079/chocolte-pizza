@@ -1,73 +1,192 @@
-
-
 header{
- background-color: rgb(255, 255, 255);
-}
-
-header img{
-  position: relative;
-  padding: 1px;
-}
-
-#imgPadding{
- padding-left: 6px;
-}
-
-
-header h3{
-  position:absolute;
-  left: 50px;
-  font-family: 'Brush Script MT', cursive;
-  margin-left: 5px;
-  font-size: 28px;
-  top: 0px;
-
-}
-
-hr.new2 {
-    border-top: 5px dashed rgb(64, 76, 77);
+    background-color: rgb(255, 255, 255);
+   }
+   
+   header img{
+     position: relative;
+     padding: 1px;
+   }
+   
+   #imgPadding{
+    padding-left: 6px;
+   }
+   
+   
+   header h3{
+     position:absolute;
+     left: 50px;
+     font-family: 'Brush Script MT', cursive;
+     margin-left: 5px;
+     font-size: 28px;
+     top: 0px;
+   
+   }
+   
+   hr.new2 {
+       border-top: 5px dashed rgb(64, 76, 77);
+     }
+   
+   header h6{
+     position: absolute;
+     font-family: 'Courier New', monospace;
+     top: 35px;
+     font-size: 8px;
+     left: 55px;
+   }
+   
+   
+   
+   main h2{
+     font-family: 'Impact, fantasy';
+   }
+   
+   nav{
+    position:absolute;
+    top:1px;
+    right: 1px;
+   }
+   
+   nav li {
+     display: inline-block
+   }
+   
+   
+   
+   .heder{
+       transform: scaleY(1.5);
+   
+   }
+   
+   #heroImg{
+       width: 100%;
+   }
+   
+   main p{
+       color:grey;
+   }
+   
+   
+   footer{
+       height: 500px;
+   } 
+   .container {
+    position: relative;
+    text-align: center;
+    color: brown;
   }
+  
+  .bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+  }
+  
+  .top-left {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    font-size: larger;
+     padding-bottom:25px ;
 
-header h6{
-  position: absolute;
-  font-family: 'Courier New', monospace;
-  top: 35px;
-  font-size: 8px;
-  left: 55px;
-}
+  }
+  
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+  }
+  
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+  }
+  
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .top-left li {
+    font-family: Arial, Helvetica, sans-serif;
+     margin-top: 25px;
+     text-align: left;
+     font-size: x-large;
+     padding-bottom: 5px;
+     
 
-
-
-main h2{
-  font-family: 'Impact, fantasy';
-}
-
-nav{
- position:absolute;
- top:1px;
- right: 1px;
-}
-
-nav li {
-  display: inline-block
-}
-
-
-
-.heder{
-    transform: scaleY(1.5);
-
-}
-
-#heroImg{
-    width: 100%;
-}
-
-main p{
-    color:grey;
-}
-
+  }
+  .top-left ul {
+      margin-top: 60px;
+    list-style-type: none;
+    top: 50px;
+  }
+  .button {
+    background-color: #ad571e;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 480px;
+    cursor: pointer;
+  }
 
 footer{
     height: 500px;
 }
+
+footer p{
+ font-size: 25px;
+
+}
+
+footer div{
+    display:inline-block;
+}
+
+.footerHeader{
+    margin-left: 10px;
+}
+nav{
+    position:absolute;
+    top:1px;
+    right: 1px;
+   }
+   
+   nav li {
+     display: inline-block
+   }
+   
+   
+   .heder{
+       transform: scaleY(1.5);
+   
+   }
+   
+   #heroImg{
+       width: 100%;
+   }
+   
+   main p{
+       color:grey;
+   }
+   
+   .top-right li {
+    font-family: Arial, Helvetica, sans-serif;
+     margin-top: 25px;
+     text-align: left;
+     font-size: x-large;
+     padding-bottom: 5px;
+     
+
+  }
+  .top-right ul {
+      margin-top: 60px;
+    list-style-type: none;
+    top: 50px;
+  }
+  
